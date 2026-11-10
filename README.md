@@ -2,6 +2,14 @@
 
 Статичный сайт-витрина для https://maksprint.it на итальянском. Без сборки и без зависимостей.
 
+## Демо
+
+Опубликовано на GitHub Pages: https://wristy03.github.io/maks-print/
+
+Репозиторий: https://github.com/wristy03/maks-print (ветка `main`, корень). После `git push` страница пересобирается примерно за минуту.
+
+В `index.html` стоит `<meta name="robots" content="noindex, nofollow">`, чтобы демо не попало в поиск рядом с настоящим maksprint.it. Перед запуском на боевом домене эту строку нужно убрать.
+
 ## Запуск
 
 ```bash
